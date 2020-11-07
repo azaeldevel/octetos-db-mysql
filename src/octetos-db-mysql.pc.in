@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@prefix@/lib
+datarootdir=@datarootdir@
+datadir=@datadir@
+includedir=@prefix@/include
+
+Name: octetos-db-abstract
+Description: C++ library for Database Access database, MySQL component.
+Version: @VERSION@
+Requires: octetos-core
+Libs: -L${libdir} -loctetos-db-abstract
+Cflags: -I${includedir}
