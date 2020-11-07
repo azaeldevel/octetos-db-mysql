@@ -1,6 +1,6 @@
 
 
-AC_INIT(octetos-db-mysql, 0.1.0-alpha,azael.devel@gmail.com)
+AC_INIT(octetos-db-mysql, 0.1.1-alpha,azael.devel@gmail.com)
 
 AC_CONFIG_HEADERS([config.h])
 

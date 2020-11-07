@@ -8,6 +8,6 @@ includedir=@prefix@/include
 Name: octetos-db-abstract
 Description: C++ library for Database Access database, MySQL component.
 Version: @VERSION@
-Requires: octetos-core
-Libs: -L${libdir} -loctetos-db-abstract
+Requires: octetos-db-abstract
+Libs: -L${libdir} -loctetos-db-mysql
 Cflags: -I${includedir}
